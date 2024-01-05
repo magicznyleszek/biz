@@ -1,5 +1,5 @@
 html {
-  background-color: antiquewhite;
+  background-color: white;
   color: midnightblue;
 }
 
@@ -13,31 +13,31 @@ a:visited {
 }
 
 a:hover {
-  color: darkslateblue;
+  color: navy;
 }
 
 a:active {
-  color: rebeccapurple;
+  transform: translateY(-1px);
 }
 
 :focus-visible {
-  outline-color: darkslateblue;
-  border-radius: 4px;
-  outline-width: 4px;
-  outline-offset: 2px;
+  outline-color: navy;
+  border-radius: 0.1rem;
+  outline-width: 0.2rem;
+  outline-offset: 0.1rem;
   outline-style: solid;
 }
 
 ::selection {
   background-color: midnightblue;
-  color: antiquewhite;
+  color: white;
 }
 
 html {
   min-height: 100%;
   font-family: "Input", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 100%;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
@@ -59,6 +59,9 @@ html {
 
 body {
   margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: lightsteelblue;
+  border-radius: 0.125rem;
 }
 
 h1,
