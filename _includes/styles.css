@@ -1,6 +1,14 @@
 html {
-  background-color: white;
+  background-color: antiquewhite;
+  background-image: linear-gradient(-20deg,lavender,antiquewhite);
   color: midnightblue;
+}
+
+body {
+  background-color: lightsteelblue;
+  background-image: linear-gradient(-10deg, lightsteelblue,thistle);
+  box-shadow: 0 0.4rem 0 thistle;
+  border: 0.2rem solid thistle;
 }
 
 a {
@@ -13,15 +21,15 @@ a:visited {
 }
 
 a:hover {
-  color: navy;
+  color: blue;
 }
 
 a:active {
-  transform: translateY(-1px);
+  color: blue;
 }
 
 :focus-visible {
-  outline-color: navy;
+  outline-color: blue;
   border-radius: 0.1rem;
   outline-width: 0.2rem;
   outline-offset: 0.1rem;
@@ -30,7 +38,7 @@ a:active {
 
 ::selection {
   background-color: midnightblue;
-  color: white;
+  color: antiquewhite;
 }
 
 html {
@@ -60,7 +68,6 @@ html {
 body {
   margin: 1.5rem;
   padding: 1.5rem;
-  background-color: lightsteelblue;
   border-radius: 0.125rem;
 }
 
