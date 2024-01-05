@@ -1,0 +1,12 @@
+## TEAM
+
+Everything: Leszek Pietrzak
+Site: tataprogramista.biz
+Email: tataprogramista@proton.me
+Location: CET Timezone
+
+## SITE
+
+Last update: 2024
+Language: Polish
+Software: Sublime Text
