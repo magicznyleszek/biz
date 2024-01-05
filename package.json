@@ -1,0 +1,22 @@
+{
+  "name": "Leszek Pietrzak tata programista",
+  "private": true,
+  "version": "1.2.3",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicznyleszek/biz.git"
+  },
+  "author": "Leszek Pietrzak",
+  "license": "CC0 4.0 BY-NC-ND",
+  "bugs": {
+    "url": "https://github.com/magicznyleszek/biz/issues",
+    "email": "zefirefemera@proton.me"
+  },
+  "homepage": "https://tataprogramista.biz",
+  "scripts": {
+    "serve": "npm run jekyll-serve",
+    "jekyll-build": "jekyll build",
+    "jekyll-serve": "jekyll serve --watch --baseurl ''"
+  }
+}
