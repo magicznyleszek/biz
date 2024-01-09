@@ -1,35 +1,45 @@
-html {
-  background-color: antiquewhite;
-  background-image: linear-gradient(-20deg,lavender,antiquewhite);
-  color: midnightblue;
+:root {
+  --color-castletonegreen: hwb(163deg 0% 70%);
+  --color-algae: hwb(162deg 54% 10%);
+  --color-melrose: hwb(240deg 70% 0%);
+  --color-portage: hwb(230deg 50% 0%);
+  --color-darkblue: hwb(240deg 0% 40%);
+  --color-persianblue: hwb(240deg 18% 10%);
+  --color-cobalt: hwb(220deg 0% 10%);
+}
+
+/* logo */
+#lptp-color {
+  max-width: 8rem;
+  width: 100%;
+  height: auto;
 }
 
 body {
-  background-color: lightsteelblue;
-  background-image: linear-gradient(-10deg, lightsteelblue,thistle);
-  box-shadow: 0 0.4rem 0 thistle;
-  border: 0.2rem solid thistle;
+  background-color: var(--color-portage);
+  background-image: linear-gradient(-20deg, var(--color-melrose), var(--color-portage));
+  color: var(--color-darkblue);
 }
 
 a {
-  color: midnightblue;
+  color: var(--color-darkblue);
   text-decoration: underline;
 }
 
 a:visited {
-  color: midnightblue;
+  color: var(--color-darkblue);
 }
 
 a:hover {
-  color: blue;
+  color: var(--color-persianblue);
 }
 
 a:active {
-  color: blue;
+  color: var(--color-cobalt);
 }
 
 :focus-visible {
-  outline-color: blue;
+  outline-color: var(--color-cobalt);
   border-radius: 0.1rem;
   outline-width: 0.2rem;
   outline-offset: 0.1rem;
@@ -37,8 +47,8 @@ a:active {
 }
 
 ::selection {
-  background-color: midnightblue;
-  color: antiquewhite;
+  background-color: var(--color-algae);
+  color: var(--color-persianblue);
 }
 
 html {
@@ -66,9 +76,8 @@ html {
 }
 
 body {
-  margin: 1.5rem;
-  padding: 1.5rem;
-  border-radius: 0.125rem;
+  padding: 2rem;
+  margin: 0;
 }
 
 h1,
