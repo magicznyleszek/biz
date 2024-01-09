@@ -18,5 +18,8 @@
     "serve": "npm run jekyll-serve",
     "jekyll-build": "jekyll build",
     "jekyll-serve": "jekyll serve --watch --baseurl ''"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
   }
 }
